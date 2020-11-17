@@ -1,0 +1,22 @@
+PODS:
+  - Movies (0.1.0):
+    - Networking
+  - Networking (0.1.0)
+
+DEPENDENCIES:
+  - Movies (from `DevPods/Movies`)
+  - Networking (from `DevPods/Networking`)
+
+EXTERNAL SOURCES:
+  Movies:
+    :path: DevPods/Movies
+  Networking:
+    :path: DevPods/Networking
+
+SPEC CHECKSUMS:
+  Movies: 82bb1f15fe86a50285203a654dc7a6d8228c6e51
+  Networking: a58f3e701af4daabe4853d56696bb1fe06cb8572
+
+PODFILE CHECKSUM: 3bfe4674615deabf0c87ae96e1a32493b4b6663b
+
+COCOAPODS: 1.8.4
